@@ -91,6 +91,24 @@ repos:
           - id: ansible_find_unquoted_values
 ```
 
+## Problems
+
+In some cases, you may need change permissions for cloned repository to run checks. For example you have this error :
+
+```lang-none
+Executable `/home/username/.cache/pre-commit/<temp name>/scripts/ansible_find_undefined_handlers.sh` is not executable
+
+Find unquoted values that look like a version............................Failed
+- hook id: ansible_find_unquoted_values
+- exit code: 1
+```
+
+You can fix this problems easily :
+
+```bash
+chmod ug+x /home/username/.cache/pre-commit/<temp name>/scripts/*
+```
+
 ---
 
 ## Support
