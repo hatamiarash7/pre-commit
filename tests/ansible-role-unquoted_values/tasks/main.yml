@@ -1,0 +1,9 @@
+---
+- name: show something
+  debug:
+    msg: "{{ unquoted_value }}"
+  loop:
+    - "{{ unquoted_value }}"
+    - "{{ quoted_value }}"
+    - "{{ unquoted_value_with_colon }}"
+    - "{{ quoted_value_with_colon }}"

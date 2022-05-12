@@ -1,0 +1,8 @@
+---
+- name: show something
+  debug:
+    msg: "something"
+
+- name: show something else
+  debug:
+    msg: "{{ variable_d + variable_e }}"
