@@ -19,6 +19,10 @@ repos:
           - id: ansible_find_unquoted_values
 ```
 
+## Hooks
+
+We have these hooks for now. more items will be added gradually.
+
 ### Ansible - Find unused variables
 
 This hook can help you find defined variables ( in `defaults/main.yml` or `vars/main.yml` ) that are not used in the role.
