@@ -8,15 +8,15 @@ Run all checks:
 
 ```yaml
 repos:
-  - repo: https://github.com/hatamiarash7/pre-commit
-    rev: v1.0.0
-    hooks:
-      - id: ansible_find_unused_variable
-      - id: ansible_find_empty_files
-      - id: ansible_find_empty_directories
-      - id: ansible_fix_readability
-      - id: ansible_find_undefined_handlers
-      - id: ansible_find_unquoted_values
+    - repo: https://github.com/hatamiarash7/pre-commit
+      rev: v1.0.3
+      hooks:
+          - id: ansible_find_unused_variable
+          - id: ansible_find_empty_files
+          - id: ansible_find_empty_directories
+          - id: ansible_fix_readability
+          - id: ansible_find_undefined_handlers
+          - id: ansible_find_unquoted_values
 ```
 
 ### Ansible - Find unused variables
@@ -25,10 +25,10 @@ This hook can help you find defined variables ( in `defaults/main.yml` or `vars/
 
 ```yaml
 repos:
-  - repo: https://github.com/hatamiarash7/pre-commit
-    rev: v1.0.0
-    hooks:
-      - id: ansible_find_unused_variable
+    - repo: https://github.com/hatamiarash7/pre-commit
+      rev: v1.0.0
+      hooks:
+          - id: ansible_find_unused_variable
 ```
 
 ### Ansible - Find empty files
@@ -37,10 +37,10 @@ This hook can find empty `defaults/main.yml`, `handlers/main.yml` and `vars/main
 
 ```yaml
 repos:
-  - repo: https://github.com/hatamiarash7/pre-commit
-    rev: v1.0.0
-    hooks:
-      - id: ansible_find_empty_files
+    - repo: https://github.com/hatamiarash7/pre-commit
+      rev: v1.0.0
+      hooks:
+          - id: ansible_find_empty_files
 ```
 
 ### Ansible - Find empty directories
@@ -49,10 +49,10 @@ This hook can find empty directories.
 
 ```yaml
 repos:
-  - repo: https://github.com/hatamiarash7/pre-commit
-    rev: v1.0.0
-    hooks:
-      - id: ansible_find_empty_directory
+    - repo: https://github.com/hatamiarash7/pre-commit
+      rev: v1.0.0
+      hooks:
+          - id: ansible_find_empty_directory
 ```
 
 ### Ansible - Fix Readability
@@ -61,10 +61,10 @@ This hook can improve readability.
 
 ```yaml
 repos:
-  - repo: https://github.com/hatamiarash7/pre-commit
-    rev: v1.0.0
-    hooks:
-      - id: ansible_fix_readability
+    - repo: https://github.com/hatamiarash7/pre-commit
+      rev: v1.0.0
+      hooks:
+          - id: ansible_fix_readability
 ```
 
 ### Ansible - Find undefined handler
@@ -73,10 +73,10 @@ This hook can find undefined handlers.
 
 ```yaml
 repos:
-  - repo: https://github.com/hatamiarash7/pre-commit
-    rev: v1.0.0
-    hooks:
-      - id: ansible_find_undefined_handlers
+    - repo: https://github.com/hatamiarash7/pre-commit
+      rev: v1.0.0
+      hooks:
+          - id: ansible_find_undefined_handlers
 ```
 
 ### Ansible - Find unquoted values
@@ -85,10 +85,10 @@ This hook can find unquoted values.
 
 ```yaml
 repos:
-  - repo: https://github.com/hatamiarash7/pre-commit
-    rev: v1.0.0
-    hooks:
-      - id: ansible_find_unquoted_values
+    - repo: https://github.com/hatamiarash7/pre-commit
+      rev: v1.0.0
+      hooks:
+          - id: ansible_find_unquoted_values
 ```
 
 ---
